@@ -52,7 +52,7 @@ export default function LogInPage() {
 
 
     return (
-        <section className="w-screen h-screen  bg-gradient-to-t from-black to-slate-300 text-white flex justify-center items-center">
+        <section className="w-screen h-screen   bg-[url(/log_background.jpg)] bg-cover  bg-center  from-black to-slate-300 text-white flex justify-center items-center">
              <div className="flex flex-col  justify-center  items-center  gap-3">
                 <div className="mt-25 flex flex-col gap-15">
                   
@@ -60,8 +60,8 @@ export default function LogInPage() {
                     <h2 className="text-xl text-center font-bold">Reconnect with the heart of the <br /> beat.</h2>
 
                 </div>
-               <div className="flex flex-col shadow-4xl shadow-black shadow-2xl border-2  border-r-gray-400  border-l-gray-500 border-t-gray-900  border-b-gray-600 items-center gap-10 bg-gradient-to-t from-blue-600 to-slate-900 pt-19 pb-13 px-10 rounded-4xl ">  
-                 <img className="w-15 rounded-full shadow-2xl" src="/electric _web.png" alt="" />
+               <div className="flex flex-col shadow-4xl   shadow-black shadow-2xl border-3  border-r-gray-500  border-l-gray-500 border-t-gray-500   border-b-gray-600 items-center gap-10  pt-19 pb-13 px-10 rounded-4xl ">  
+                 <img className="w-15 rounded-full border-1 border-slate-500  shadow-2xl" src="/electric _web.png" alt="" />
                 <h2 className="text-xl  font-bold">
                     Log In
                 </h2>
@@ -75,9 +75,9 @@ export default function LogInPage() {
 
                </div>
               
-                <div className="text-center text-sm m-1 flex flex-col gap-5">
-                             <h3 className="font-bold text-center  text-lg " >The world went quiet br while you were away.</h3>
-                            <p className="text-sm font-medium">Every note you’ve ever loved is waiting just behind <br /> this door. 
+                <div className="text-center text-sm m-1 flex flex-col gap-5 shadow-2xl">
+                             <h3 className="font-bold text-center  text-lg shadow-2xl " >The world went quiet br while you were away.</h3>
+                            <p className="text-sm font-medium shadow-2xl " >Every note you’ve ever loved is waiting just behind <br /> this door. 
                                 We’ve kept your sanctuary  warm and your <br /> playlists ready; all 
                                 that’s missing is the listener.</p>
                 </div>
